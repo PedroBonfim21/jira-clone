@@ -1,5 +1,6 @@
 import "server-only";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Client, Account, Storage, Users, Databases } from "node-appwrite";
 
 export async function createAdminClient() {
